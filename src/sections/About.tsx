@@ -35,7 +35,7 @@ const About: React.FC = () => {
     <section id="about" className="py-20 bg-white dark:bg-slate-800">
       <div className="container mx-auto px-4" ref={sectionRef}>
         <div className="text-center mb-16">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white">About Me</h2>
+          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white">Обо мне</h2>
           <div className="w-16 h-1 bg-amber-500 mx-auto"></div>
         </div>
 
