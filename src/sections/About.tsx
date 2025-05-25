@@ -59,17 +59,16 @@ const About: React.FC = () => {
             ref={textRef}
             className="translate-x-10 opacity-0 transition-all duration-1000 ease-out delay-300"
           >
-            <h3 className="font-serif text-2xl font-bold mb-6 text-slate-900 dark:text-white">Hello, I'm Sarah</h3>
+            <h3 className="font-serif text-2xl font-bold mb-6 text-slate-900 dark:text-white">
+              Привет, меня зовут Настя!
+              </h3>
+
             <p className="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
-              For over a decade, I've been passionate about preserving memories through beautiful, 
-              handcrafted photo albums. What started as a hobby creating scrapbooks for friends and 
-              family has grown into a thriving business dedicated to helping people treasure their 
-              most precious moments.
+              Здесь я создаю фотокниги. Они про жизнь вашей семьи, про самое сокровенное и дорогое. В них истории о том, как вы женились, ждали малышей, уезжали в путешествия, строили свое дело, исполняли мечты, переезжали, встречались с друзьями, собирались на даче у бабушки, и о многом другом, что хранится в вашем сердце.
             </p>
+
             <p className="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
-              Each album I create is a unique piece of art, thoughtfully designed to tell your story. 
-              I work closely with clients to understand the emotions and memories behind each photo, 
-              ensuring the final product is not just an album, but a cherished keepsake.
+                Как фотограф я знаю, что особенные моменты нашей жизни теряются в телефонах, на компьютерах и по ссылкам на файлообменники. Мы почти к ним не возвращаемся. Потому что неудобно и некогда, а со временем всё сложнее найти нужные фотографии. Я проверила это на десятках фотокниг — лучше не затягивать, иначе жизнь убежит вперёд. Поэтому с любовью соберу ваши воспоминания в красивые, стильные альбомы.
             </p>
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="bg-slate-100 dark:bg-slate-700 p-4 rounded-lg text-center">
