@@ -64,27 +64,30 @@ const About: React.FC = () => {
               </h3>
 
             <p className="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
-              Здесь я создаю фотокниги. Они про жизнь вашей семьи, про самое сокровенное и дорогое. В них истории о том, как вы женились, ждали малышей, уезжали в путешествия, строили свое дело, исполняли мечты, переезжали, встречались с друзьями, собирались на даче у бабушки, и о многом другом, что хранится в вашем сердце.
+              Здесь я создаю фотокниги. Они про жизнь вашей семьи, про самое сокровенное и дорогое. 
+              В них истории о том, как вы женились, ждали малышей, уезжали в путешествия, строили свое дело, исполняли мечты, переезжали, 
+              встречались с друзьями, собирались на даче у бабушки, и о многом другом, что хранится в вашем сердце.
             </p>
-
             <p className="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
-                Как фотограф я знаю, что особенные моменты нашей жизни теряются в телефонах, на компьютерах и по ссылкам на файлообменники. Мы почти к ним не возвращаемся. Потому что неудобно и некогда, а со временем всё сложнее найти нужные фотографии. Я проверила это на десятках фотокниг — лучше не затягивать, иначе жизнь убежит вперёд. Поэтому с любовью соберу ваши воспоминания в красивые, стильные альбомы.
+                Как фотограф я знаю, что особенные моменты нашей жизни теряются в телефонах, на компьютерах и по ссылкам на файлообменники. 
+                Мы почти к ним не возвращаемся. Потому что неудобно и некогда, а со временем всё сложнее найти нужные фотографии. 
+                Я проверила это на десятках фотокниг — лучше не затягивать, иначе жизнь убежит вперёд. Поэтому с любовью соберу ваши воспоминания в красивые, стильные альбомы.
             </p>
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="bg-slate-100 dark:bg-slate-700 p-4 rounded-lg text-center">
-                <span className="block text-3xl font-bold text-amber-600 mb-2">10+</span>
-                <span className="text-slate-600 dark:text-slate-400">Years Experience</span>
+                <span className="block text-3xl font-bold text-amber-600 mb-2">5+</span>
+                <span className="text-slate-600 dark:text-slate-400">лет создаю фотокниги</span>
               </div>
               <div className="bg-slate-100 dark:bg-slate-700 p-4 rounded-lg text-center">
-                <span className="block text-3xl font-bold text-amber-600 mb-2">500+</span>
-                <span className="text-slate-600 dark:text-slate-400">Albums Created</span>
+                <span className="block text-3xl font-bold text-amber-600 mb-2">100+</span>
+                <span className="text-slate-600 dark:text-slate-400">альбомов создано</span>
               </div>
             </div>
             <a 
               href="#contact" 
               className="inline-block px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-md transition-colors shadow-md"
             >
-              Let's Work Together
+              Связаться со мной
             </a>
           </div>
         </div>
