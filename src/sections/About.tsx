@@ -46,9 +46,9 @@ const About: React.FC = () => {
           >
             <div className="relative z-10">
               <img 
-                src="https://images.pexels.com/photos/7148384/pexels-photo-7148384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Photo Album Designer" 
-                className="rounded-lg shadow-xl w-full h-auto object-cover"
+                  src="/nastyafoto.jpg" 
+                  alt="Настя — дизайнер фотоальбомов" 
+                  className="rounded-lg shadow-xl w-full h-auto object-cover"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-amber-500 rounded-full z-0"></div>
