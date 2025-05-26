@@ -58,13 +58,13 @@ const Hero: React.FC = () => {
             href="#gallery" 
             className="px-8 py-3 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-md transition-colors shadow-lg hover:shadow-xl"
           >
-            View Gallery
+            Смотреть портфолио
           </a>
           <a 
             href="#contact" 
             className="px-8 py-3 bg-transparent hover:bg-white/10 text-white border border-white rounded-md transition-colors"
           >
-            Get in Touch
+            Связаться со мной
           </a>
         </div>
       </div>
