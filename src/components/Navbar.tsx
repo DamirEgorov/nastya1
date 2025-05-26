@@ -39,12 +39,12 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8">
-          <button onClick={() => scrollToSection('home')} className="nav-link">Home</button>
-          <button onClick={() => scrollToSection('about')} className="nav-link">About</button>
-          <button onClick={() => scrollToSection('gallery')} className="nav-link">Gallery</button>
-          <button onClick={() => scrollToSection('process')} className="nav-link">Process</button>
-          <button onClick={() => scrollToSection('testimonials')} className="nav-link">Testimonials</button>
-          <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
+          <button onClick={() => scrollToSection('home')} className="nav-link">Главная</button>
+          <button onClick={() => scrollToSection('about')} className="nav-link">Обо мне</button>
+          <button onClick={() => scrollToSection('gallery')} className="nav-link">Портфолио</button>
+          <button onClick={() => scrollToSection('process')} className="nav-link">Как я работаю</button>
+          <button onClick={() => scrollToSection('testimonials')} className="nav-link">Отзывы клиентов</button>
+          <button onClick={() => scrollToSection('contact')} className="nav-link">Контакты</button>
         </nav>
 
         <div className="flex items-center space-x-4">
@@ -74,12 +74,12 @@ const Navbar: React.FC = () => {
         }`}
       >
         <nav className="flex flex-col space-y-4 px-4">
-          <button onClick={() => scrollToSection('home')} className="py-2 text-left hover:text-amber-600 transition-colors">Home</button>
-          <button onClick={() => scrollToSection('about')} className="py-2 text-left hover:text-amber-600 transition-colors">About</button>
-          <button onClick={() => scrollToSection('gallery')} className="py-2 text-left hover:text-amber-600 transition-colors">Gallery</button>
-          <button onClick={() => scrollToSection('process')} className="py-2 text-left hover:text-amber-600 transition-colors">Process</button>
-          <button onClick={() => scrollToSection('testimonials')} className="py-2 text-left hover:text-amber-600 transition-colors">Testimonials</button>
-          <button onClick={() => scrollToSection('contact')} className="py-2 text-left hover:text-amber-600 transition-colors">Contact</button>
+          <button onClick={() => scrollToSection('home')} className="py-2 text-left hover:text-amber-600 transition-colors">Главная</button>
+          <button onClick={() => scrollToSection('about')} className="py-2 text-left hover:text-amber-600 transition-colors">Обо мне</button>
+          <button onClick={() => scrollToSection('gallery')} className="py-2 text-left hover:text-amber-600 transition-colors">Портфолио</button>
+          <button onClick={() => scrollToSection('process')} className="py-2 text-left hover:text-amber-600 transition-colors">Как я работаю</button>
+          <button onClick={() => scrollToSection('testimonials')} className="py-2 text-left hover:text-amber-600 transition-colors">Отзывы клиентов</button>
+          <button onClick={() => scrollToSection('contact')} className="py-2 text-left hover:text-amber-600 transition-colors">Контакты</button>
         </nav>
       </div>
     </header>
