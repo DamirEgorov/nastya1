@@ -11,13 +11,15 @@ const Gallery: React.FC = () => {
   const categories = ['All', ...Array.from(new Set(galleryData.map(item => item.category)))];
 
   // filter items when category changes
-  useEffect(() => {
-  if (selectedCategory === 'All') {
-    // взять первый элемент всего массива
-    setItems(galleryData.slice(0, 1));
-  } else {
-    setItems(galleryData.filter(item => item.category === selectedCategory));
-  }
+useEffect(() => {
+    if (selectedCategory === 'All') {
+      // показываем только первый свадебный альбом
+      const firstWedding = galleryData.find(item => item.category === 'Свадьбы');
+      setItems(firstWedding ? [firstWedding] : []);
+    } else {
+      setItems(galleryData.filter(item => item.category === selectedCategory));
+    }
+  }, [selectedCategory]);
 
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category);
