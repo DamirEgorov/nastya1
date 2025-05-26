@@ -56,9 +56,9 @@ const Gallery: React.FC = () => {
     <section id="gallery" className="py-20 bg-slate-50 dark:bg-slate-900">
       <div className="container mx-auto px-4" ref={galleryRef}>
         <div className="text-center mb-16">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white">My Portfolio</h2>
+          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white">Мое портфолио</h2>
           <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto mb-8">
-            Browse through my collection of handcrafted photo albums created for clients around the world.
+            Ознакомьтесь с моей коллекцией фотоальбомов ручной работы, созданных для клиентов по всему миру.
           </p>
           <div className="w-16 h-1 bg-amber-500 mx-auto"></div>
         </div>
