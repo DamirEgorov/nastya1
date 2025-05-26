@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Camera className="h-8 w-8 text-amber-600" />
-          <span className="font-serif font-bold text-xl">PhotoFolio</span>
+          <span className="font-serif font-bold text-xl">СТРАНИЦЫ</span>
         </div>
 
         {/* Desktop Menu */}
