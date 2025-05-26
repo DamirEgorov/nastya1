@@ -14,14 +14,14 @@ const galleryData: GalleryItem[] = [
     description: 'Лёгкий светлый стиль, 50 страниц',
     category: 'Свадьбы',
     images: [
-      '/wed1.jpg',
-      '/wed2.jpg',
-      '/wed3.jpg',
-      '/wed4.jpg',
-      '/wed5.jpg',
-      '/wed6.jpg',
-      '/wed7.jpg',
-      '/wed8.jpg',
+      '/wed1.JPG',
+      '/wed2.JPG',
+      '/wed3.JPG',
+      '/wed4.JPG',
+      '/wed5.JPG',
+      '/wed6.JPG',
+      '/wed7.JPG',
+      '/wed8.JPG',
       ]
   },
   {
