@@ -46,12 +46,11 @@ const Hero: React.FC = () => {
       
       <div className="container mx-auto px-4 z-10 text-center">
         <h1 className="font-serif text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-          <span className="block">Beautiful Photo Albums</span>
-          <span className="block mt-2">For Your Precious Memories</span>
+          <span className="block">ФОТОКНИГИ ИЗ ВАШИХ ФОТОГРАФИЙ</span>
         </h1>
         
         <p className="text-slate-200 text-xl md:text-2xl max-w-2xl mx-auto mb-8">
-          Handcrafted photo albums designed to tell your unique story and preserve your memories for generations.
+         ДУШЕВНО И СТИЛЬНО О ВАС И ВАШЕЙ ЖИЗНИ.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-4">
