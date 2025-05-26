@@ -12,12 +12,12 @@ const Gallery: React.FC = () => {
 
   // filter items when category changes
   useEffect(() => {
-    setItems(
-      selectedCategory === 'All'
-        ? galleryData
-        : galleryData.filter(item => item.category === selectedCategory)
-    );
-  }, [selectedCategory]);
+  if (selectedCategory === 'All') {
+    // взять первый элемент всего массива
+    setItems(galleryData.slice(0, 1));
+  } else {
+    setItems(galleryData.filter(item => item.category === selectedCategory));
+  }
 
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category);
