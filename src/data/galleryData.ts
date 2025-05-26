@@ -2,31 +2,54 @@ export interface GalleryItem {
   id: number;
   title: string;
   category: string;
-  imageSrc: string;
+  images?: string[];
+  imageSrc?: string;
   description: string;
 }
 
 const galleryData: GalleryItem[] = [
   {
     id: 1,
-    title: "Summer Wedding Collection",
-    category: "Wedding",
-    imageSrc: "https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    description: "A handcrafted wedding album featuring elegant layouts and premium materials."
+    title: 'Свадьба Ани и Серёжи',
+    description: 'Лёгкий светлый стиль, 50 страниц',
+    category: 'Свадьбы',
+    images: [
+      '/wed1.jpg',
+      '/wed2.jpg',
+      '/wed3.jpg',
+      '/wed4.jpg',
+      '/wed5.jpg',
+      '/wed6.jpg',
+      '/wed7.jpg',
+      '/wed8.jpg',
+      ]
   },
   {
     id: 2,
-    title: "Family Heritage",
-    category: "Family",
-    imageSrc: "https://images.pexels.com/photos/1974692/pexels-photo-1974692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    description: "Multi-generational family album designed to preserve precious memories for years to come."
+    title: 'Свадьба Марии и Игоря',
+    description: 'Романтика осеннего парка',
+    category: 'Свадьбы',
+    images: [
+      '/wed11.jpg',
+      '/wed12.jpg',
+      '/wed13.jpg',
+      '/wed14.jpg',
+      '/wed15.jpg',
+      '/wed16.jpg',
+      ]
   },
   {
     id: 3,
-    title: "World Travel Memories",
-    category: "Travel",
-    imageSrc: "https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    description: "Adventure-themed travel album with custom maps and journal entries."
+    title: 'Свадьба Николая и Елены',
+    description: 'Весенняя история любви',
+    category: 'Свадьбы',
+    images: [
+      '/wed18.jpg',
+      '/wed19.jpg',
+      '/wed20.jpg',
+      '/wed21.jpg',
+      '/wed22.jpg',
+            ]
   },
   {
     id: 4,
