@@ -28,7 +28,7 @@ const galleryData: GalleryItem[] = [
     imageSrc: '/wedding2.jpg',
     title: 'Роман и Юля',
     description: 'Фотокнига в светлых тонах',
-    category: 'Свадьбы'
+    category: 'Путешествия'
   },
   {
     id: 3,
