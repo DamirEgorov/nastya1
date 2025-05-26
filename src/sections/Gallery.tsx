@@ -92,7 +92,7 @@ const Gallery: React.FC = () => {
               >
                 <div className="relative overflow-hidden h-64">
                   <img
-                    src={item.images[0]}
+                    src={item.imageSrc}
                     alt={item.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
