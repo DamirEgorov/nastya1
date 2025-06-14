@@ -75,11 +75,11 @@ const About: React.FC = () => {
             </p>
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="bg-slate-100 dark:bg-slate-700 p-4 rounded-lg text-center">
-                <span className="block text-3xl font-bold text-amber-600 mb-2">5+</span>
+                <span className="block text-3xl font-bold text-amber-600 mb-2">5</span>
                 <span className="text-slate-600 dark:text-slate-400">лет создаю фотокниги</span>
               </div>
               <div className="bg-slate-100 dark:bg-slate-700 p-4 rounded-lg text-center">
-                <span className="block text-3xl font-bold text-amber-600 mb-2">100+</span>
+                <span className="block text-3xl font-bold text-amber-600 mb-2">100</span>
                 <span className="text-slate-600 dark:text-slate-400">альбомов создано</span>
               </div>
             </div>
