@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
       ref={sectionRef}
       className="relative h-screen flex items-center justify-center bg-cover bg-center"
       style={{ 
-        backgroundImage: 'url("/nastyafoto.jpg")',
+        backgroundImage: 'url("/FON1.jpg")',
         backgroundAttachment: 'fixed'
       }}
     >
